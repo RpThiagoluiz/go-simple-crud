@@ -1,8 +1,9 @@
 module github.com/RpThiagoluiz/go-simple-crud
 
-go 1.20
+go 1.18
 
 require (
+	github.com/go-chi/chi/v5 v5.0.10
 	github.com/lib/pq v1.10.9
 	github.com/spf13/viper v1.16.0
 )
